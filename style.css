@@ -23,11 +23,10 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
-  
-  ul {
-  position: fixed;
+}
+ul {
+  position: sticky;
   top: 0;
-  width: 100%;
 }
 }
 
