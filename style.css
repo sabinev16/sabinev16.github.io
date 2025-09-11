@@ -17,8 +17,9 @@ ul li a {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 0px 0px;
+  padding: 14px 16px;
   text-decoration: none;
+  margin: 0;
 }
 
 ul li a:hover {
