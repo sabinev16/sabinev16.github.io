@@ -29,10 +29,5 @@ ul li a.active {
   background-color:#111111 ;
 }
 
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 }
 
