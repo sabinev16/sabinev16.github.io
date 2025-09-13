@@ -28,6 +28,25 @@ ul li a:hover {
 ul li a.active {
   background-color:#111111 ;
 }
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #333333;
+}
+.second-level-menu > li:hover { background: #111111; }
 
 }
 
