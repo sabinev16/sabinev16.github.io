@@ -1,5 +1,4 @@
-<head>
-<style>
+
 body {
   margin: 0;
   padding: 0;
@@ -62,5 +61,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-</style>
-</head>
