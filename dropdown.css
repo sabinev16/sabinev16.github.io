@@ -35,6 +35,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
   display: inline-block;
+  position: relative; /* dit toevoegen voor positionering dropdown */
 }
 
 .dropdown-content {
@@ -54,10 +55,12 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-<style>
-<head>
+</style>
+</head>
