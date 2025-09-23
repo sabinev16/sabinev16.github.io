@@ -1,4 +1,4 @@
-body 
+body {
 
 ul.navbar {
 list-style-type: none;
@@ -68,3 +68,4 @@ ul {
   width: 100%;
 }
 
+}
