@@ -1,6 +1,6 @@
 body{ 
 
-/* Stijl voor het hoofdmenu */
+
 ul.top-level-menu {
   list-style-type: none;
   margin: 0;
@@ -9,13 +9,12 @@ ul.top-level-menu {
   overflow: hidden;
 }
 
-/* Menu-items horizontaal naast elkaar */
+
 ul.top-level-menu > li {
   float: left;
   position: relative;
 }
 
-/* Stijl voor de knoppen */
 ul.top-level-menu li a {
   display: block;
   color: white;
@@ -25,12 +24,11 @@ ul.top-level-menu li a {
   background-color: #333;
 }
 
-/* Hover-effect voor hoofdmenu */
+
 ul.top-level-menu li a:hover {
   background-color: #111;
 }
 
-/* Verborgen dropdown */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -40,7 +38,6 @@ ul.top-level-menu li a:hover {
   z-index: 1;
 }
 
-/* Links binnen dropdown */
 .dropdown-content a {
   color: white;
   padding: 12px 16px;
@@ -49,17 +46,16 @@ ul.top-level-menu li a:hover {
   text-align: left;
 }
 
-/* Hover-effect binnen dropdown */
+
 .dropdown-content a:hover {
   background-color: #666;
 }
 
-/* Toon dropdown bij hover op ouder <li> */
+
 li.dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Fix voor clearfix van floats */
 ul.top-level-menu::after {
   content: "";
   display: table;
