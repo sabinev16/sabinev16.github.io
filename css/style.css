@@ -74,7 +74,7 @@ p.capitalize {
 .blok-afbeelding {
   display: block;
   margin: 0 auto;
-  max-width: 850px;   /* Maak de afbeelding maximaal 300px breed */
+  max-width: 900px;   /* Maak de afbeelding maximaal 300px breed */
   width: 100%;        /* Zorgt ervoor dat het schaalbaar blijft op mobiel */
   height: auto;
   border-radius: 8px;
