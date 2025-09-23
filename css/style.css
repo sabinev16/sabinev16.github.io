@@ -79,3 +79,17 @@ p.capitalize {
   height: auto;
   border-radius: 8px;
 }
+
+
+
+.site-footer {
+  background-color: #000000;     /* zwarte achtergrond */
+  color: white;                  /* Witte tekst */
+  text-align: center;            /* In het midden */
+  padding: 15px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
