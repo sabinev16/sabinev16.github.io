@@ -1,25 +1,21 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h2, p {
-  margin: 10px;
-}
-
-ul {
+body{ 
+  /* Basis styling menu */
+.top-level-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #333;
   overflow: hidden;
-  background-color: #38444d;
+  font-family: Arial, sans-serif;
 }
 
-li {
+/* Menu items horizontaal */
+.top-level-menu > li {
   float: left;
 }
 
-li a, .dropbtn {
+/* Links styling */
+.top-level-menu li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -27,14 +23,23 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+/* Actieve pagina */
+.top-level-menu li a.active {
+  background-color: #4CAF50;
 }
 
-li.dropdown {
+/* Hover effect */
+.top-level-menu li a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
   display: inline-block;
 }
 
+/* Dropdown inhoud verbergen */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -44,6 +49,7 @@ li.dropdown {
   z-index: 1;
 }
 
+/* Dropdown links */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -52,8 +58,13 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+/* Hover effect op dropdown links */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
+/* Dropdown tonen bij hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
 }
