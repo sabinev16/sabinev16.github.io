@@ -1,47 +1,46 @@
-body {
+body{ 
 
-ul.navbar {
-list-style-type: none;
-margin: 0;
-padding: 0;
-position: fixed;
-top: 0;
-left: 0;
-background-color: black;
-width: 100%;
-z-index:1000; 
+/* Stijl voor het hoofdmenu */
+ul.top-level-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
 }
 
-ul li {
+/* Menu-items horizontaal naast elkaar */
+ul.top-level-menu > li {
   float: left;
-}
-
-ul li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-background-color: crimson;
-}
-
-li.dropdown {
-  display: inline-block;
   position: relative;
 }
 
+/* Stijl voor de knoppen */
+ul.top-level-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  background-color: #333;
+}
+
+/* Hover-effect voor hoofdmenu */
+ul.top-level-menu li a:hover {
+  background-color: #111;
+}
+
+/* Verborgen dropdown */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: #444;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
+/* Links binnen dropdown */
 .dropdown-content a {
   color: white;
   padding: 12px 16px;
@@ -50,22 +49,21 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: crimson;}
+/* Hover-effect binnen dropdown */
+.dropdown-content a:hover {
+  background-color: #666;
+}
 
-.dropdown:hover .dropdown-content {
+/* Toon dropdown bij hover op ouder <li> */
+li.dropdown:hover .dropdown-content {
   display: block;
 }
 
-
-
-ul li a.active {
-  background-color: crimson;
-}
-
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
+/* Fix voor clearfix van floats */
+ul.top-level-menu::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 }
