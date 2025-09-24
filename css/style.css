@@ -80,16 +80,6 @@ p.capitalize {
   border-radius: 8px;
 }
 
-.container {
-  display: flex;
-  align-items: center; /* zorgt dat afbeelding en tekst mooi uitgelijnd zijn */
-  gap: 20px; /* ruimte tussen afbeelding en tekst */
-}
-.inleiding-blok {
-  display: flex;
-  align-items: flex-start; /* zorgt dat alles bovenaan uitgelijnd is */
-  gap: 20px; /* optionele ruimte tussen afbeelding en tekst */
-}
 .blok-afbeelding2 {
   max-width: 500px; /* stel de maximale breedte van het plaatje in */
   width: 100%;      /* zorgt dat het ook op kleinere schermen goed schaalt */
