@@ -80,15 +80,22 @@ p.capitalize {
   border-radius: 8px;
 }
 
+.container {
+  display: flex;
+  align-items: center; /* zorgt dat afbeelding en tekst mooi uitgelijnd zijn */
+  gap: 20px; /* ruimte tussen afbeelding en tekst */
+}
+
 .blok-afbeelding2 {
-  display: block;
-  margin: 0 auto;
-  max-width: 500px;   /* Maakt het plaatje 500px breed */
-  width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
+  max-width: 300px; /* stel de maximale breedte van het plaatje in */
+  width: 100%;      /* zorgt dat het ook op kleinere schermen goed schaalt */
   height: auto;
   border-radius: 8px;
 }
 
+.tekst {
+  flex: 1; /* zorgt dat de tekst de resterende ruimte krijgt */
+}
 
 
 .site-footer {
