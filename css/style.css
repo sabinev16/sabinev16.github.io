@@ -71,10 +71,19 @@ p.capitalize {
   line-height: 1.6;
 }
 
-.blok-afbeelding {
+.blok-afbeelding1 {
   display: block;
   margin: 0 auto;
   max-width: 900px;   /* Maakt het plaatje 900px breed */
+  width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
+  height: auto;
+  border-radius: 8px;
+}
+
+.blok-afbeelding2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;   /* Maakt het plaatje 700px breed */
   width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
   height: auto;
   border-radius: 8px;
