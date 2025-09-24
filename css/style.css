@@ -83,7 +83,7 @@ p.capitalize {
 .blok-afbeelding2 {
   display: block;
   margin: 0 auto;
-  max-width: 500px;   /* Maakt het plaatje 700px breed */
+  max-width: 500px;   /* Maakt het plaatje 500px breed */
   width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
   height: auto;
   border-radius: 8px;
