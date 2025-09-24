@@ -86,7 +86,7 @@ p.capitalize {
   background-color: #333333;     /* donker grijze achtergrond */
   color: white;                  /* witte tekst */
   text-align: center;            /* in het midden */
-  padding: 15px 10px;
+  padding: 5px 10px;
   font-size: 14px;
   margin-top: 40px;
   position: relative;
