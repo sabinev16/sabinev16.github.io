@@ -74,8 +74,8 @@ p.capitalize {
 .blok-afbeelding {
   display: block;
   margin: 0 auto;
-  max-width: 900px;   /* Maak de afbeelding maximaal 300px breed */
-  width: 100%;        /* Zorgt ervoor dat het schaalbaar blijft op mobiel */
+  max-width: 900px;   /* Maakt het plaatje 900px breed */
+  width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
   height: auto;
   border-radius: 8px;
 }
@@ -83,9 +83,9 @@ p.capitalize {
 
 
 .site-footer {
-  background-color: #000000;     /* zwarte achtergrond */
-  color: white;                  /* Witte tekst */
-  text-align: center;            /* In het midden */
+  background-color: #333333;     /* donker grijze achtergrond */
+  color: white;                  /* witte tekst */
+  text-align: center;            /* in het midden */
   padding: 15px 10px;
   font-size: 14px;
   margin-top: 40px;
