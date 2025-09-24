@@ -91,7 +91,7 @@ p.capitalize {
   gap: 20px; /* optionele ruimte tussen afbeelding en tekst */
 }
 .blok-afbeelding2 {
-  max-width: 300px; /* stel de maximale breedte van het plaatje in */
+  max-width: 500px; /* stel de maximale breedte van het plaatje in */
   width: 100%;      /* zorgt dat het ook op kleinere schermen goed schaalt */
   height: auto;
   border-radius: 8px;
