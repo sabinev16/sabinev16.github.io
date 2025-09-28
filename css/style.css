@@ -44,7 +44,7 @@ p.capitalize {
   text-transform: capitalize;
 
 }
-Index
+
 .inleiding-blok {
   background-color: #ffffff; /* witte achtergrond */
   padding: 20px;
@@ -71,7 +71,7 @@ Index
   line-height: 1.6;
 }
 
-Plaatje parijs
+
 .blok-afbeelding1 {
   display: block;
   margin: 0 auto;
@@ -80,14 +80,14 @@ Plaatje parijs
   height: auto;
   border-radius: 8px;
 }
-Plaatje gift invoer verwerking uitvoer
+
 .blok-afbeelding2 {
   max-width: 500px; /* stel de maximale breedte van het plaatje in */
   width: 100%;      /* zorgt dat het ook op kleinere schermen goed schaalt */
   height: auto;
   border-radius: 8px;
 }
-Invoer verwerking Uivoer
+
 .Invoer-sectie {
   display: flex;
   flex-wrap: wrap; 
@@ -122,10 +122,7 @@ Invoer verwerking Uivoer
 .tekst {
   flex: 1; /* zorgt dat de tekst de resterende ruimte krijgt */
 }
-Compressie
 
-
-Site footer
 .site-footer {
   background-color: #333333;     /* donker grijze achtergrond */
   color: white;                  /* witte tekst */
