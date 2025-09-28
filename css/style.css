@@ -1,113 +1,112 @@
+/* achtergrond kleu van de hele pagina */
 body {
     background-color: rgb(255, 233, 237); /*  achtergrond kleur*/
 
+/* style voor de navigatie balk */
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+  list-style-type: none;      /* verwijdert de standaard bolletjes van een lijst */
+  margin: 0;                  /* marge rondom de lijst */
+  padding: 0;                 /* opvulling binnen de lijst */
+  overflow: hidden;           /* inhoud binnen de lijst */
+  background-color: #333333;  /* achtergrondkleur voor het menu */
 }
 
 ul li {
-  float: left;
+  float: left;  /* zet de lijstitems horizontaal naast elkaar */
+}
 }
 
 ul li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  margin: 0;
+  display: block;             /* maakt van de link een blok  */
+  color: rgb(255, 255, 255);  /* tekstkleur */
+  text-align: center;         /* tekst in het midden van de knop */
+  padding: 14px 16px;         /* ruimte binnenin de knoppen */
+  text-decoration: none;      /* onderstreping van links */
+  margin: 0;                  /* marge buiten de knoppen */
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #111111; /*achtergrondkleur */
 }
 ul li a.active {
-  background-color:#111111 ;
+  background-color:#111111 ; /*achtergrondkleur */
 }
 
-
-}
 
 p.uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase; /* alles hoofdletters */
 }
 
 p.lowercase {
-  text-transform: lowercase;
+  text-transform: lowercase; /* alles kleine letters  */
 }
 
-p.capitalize {
-  text-transform: capitalize;
-
-}
 
 .inleiding-blok {
-  background-color: #ffffff; /* witte achtergrond */
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 10px;
-  max-width: 900px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-  text-align: left; /* gewone tekst blijft links */
+  background-color: #ffffff; /* achtergrond voor het tekstblok */
+  padding: 20px; /* ruimte in het blok */
+  margin: 20px auto; /* ruimte buiten het blok */
+  border-radius: 10px; /* afgeronde hoeken van het blok */
+  max-width: 900px; /* maximale breedte van het blok */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* schaduw achter het blok */
+  text-align: left; /* standaard uitlijning van de tekst is links */
 }
 
 .inleiding-blok h1 {
-  text-align: center; /* titel in het midden */
-  color: #000000;
-  margin-top: 10px;
+  text-align: center; /* de titel in het midden */
+  color: #000000; /* zwarte tekstkleur */
+  margin-top: 10px; /* ruimte boven de titel */
 }
 
 .inleiding-blok h2 {
-  color: #000000;
-  margin-top: 20px;
+  color: #000000; /* zwarte tekstkleur */
+  margin-top: 20px; /* extra ruimte */
 }
 
 .inleiding-blok p {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 16px; /* lettergrootte */
+  line-height: 1.6; /* regelafstand */
 }
 
 
 .blok-afbeelding1 {
-  display: block;
-  margin: 0 auto;
-  max-width: 900px;   /* maakt het plaatje 900px breed */
-  width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
-  height: auto;
-  border-radius: 8px;
+  display: block;           /* afbeelding als blokelement */
+  margin: 0 auto;           /* afbeelding in het midden horizontaal */
+  max-width: 900px;         /* afbeelding is 900px */
+  width: 100%;              /* past zich aan aan de breedte van het blok */
+  height: auto;             /* behouwt de afmettingen */
+  border-radius: 8px;       /* afgeronde hoeken */
 }
 
 .blok-afbeelding2 {
-  max-width: 500px; /* stel de maximale breedte van het plaatje in */
-  width: 100%;      /* zorgt ervoor dat het ook goed te zien is op de telefoon */
-  height: auto;
-  border-radius: 8px;
+  max-width: 500px;         /* max grote is 500px */
+  width: 100%;              /* voor telefoon */
+  height: auto;             /* behoudt verhouding */
+  border-radius: 8px;       /* afgeronde hoeken */
 }
 
 .blok-afbeelding3 {
-  display: block;
-  margin: 0 auto;
-  max-width: 400px;   /* maakt het plaatje 400px breed */
-  width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
-  height: auto;
-  border-radius: 8px; }
+  display: block;           /* blockelement waardoor margin werkt */
+  margin: 0 auto;           /* afbeelding in het midden*/
+  max-width: 400px;         /* max grote is 400px */
+  width: 100%;              /* volledige breedte van het blok, telefoon */
+  height: auto;             /* behoudt verhouding */
+  border-radius: 8px;       /* afgeronde hoeken */
+}
 
-  .blok-afbeelding4 {
-  display: block;
-  margin: 0 auto;
-  max-width: 600px;   /* maakt het plaatje 600px breed */
-  width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
-  height: auto;
-  border-radius: 8px; }
+.blok-afbeelding4 {
+  display: block;           /* blockelement waardoor margin werkt */
+  margin: 0 auto;           /* afbeelding in het midden*/
+  max-width: 600px;         /* max grote is 600px */
+  width: 100%;              /* volledige breedte van het blok, telefoon*/
+  height: auto;             /* behoudt verhouding */
+  border-radius: 8px;       /* afgeronde hoeken */
+}
 
   .blok-afbeelding5 {
-  width: 22%;              /* Zorgt dat elke foto ongeveer 1/4 van de rij neemt */
-  height: auto;            /* Houdt de verhoudingen van de foto’s goed */
-  border-radius: 5px;      /* maakt de hoeken iets rond */
+  width: 22%;              /* elke foto ongeveer 1/4 van de rij */
+  height: auto;            /* verhoudingen foto's */
+  border-radius: 5px;      /* afgeronde hoeken*/
 }
 
 .Invoer-sectie {
