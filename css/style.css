@@ -75,7 +75,7 @@ p.capitalize {
 .blok-afbeelding1 {
   display: block;
   margin: 0 auto;
-  max-width: 900px;   /* Maakt het plaatje 900px breed */
+  max-width: 900px;   /* maakt het plaatje 900px breed */
   width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
   height: auto;
   border-radius: 8px;
@@ -83,7 +83,7 @@ p.capitalize {
 
 .blok-afbeelding2 {
   max-width: 500px; /* stel de maximale breedte van het plaatje in */
-  width: 100%;      /* zorgt dat het ook op kleinere schermen goed schaalt */
+  width: 100%;      /* zorgt ervoor dat het ook goed te zien is op de telefoon */
   height: auto;
   border-radius: 8px;
 }
@@ -91,7 +91,7 @@ p.capitalize {
 .blok-afbeelding3 {
   display: block;
   margin: 0 auto;
-  max-width: 400px;   /* Maakt het plaatje 900px breed */
+  max-width: 400px;   /* maakt het plaatje 400px breed */
   width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
   height: auto;
   border-radius: 8px; }
@@ -99,10 +99,16 @@ p.capitalize {
   .blok-afbeelding4 {
   display: block;
   margin: 0 auto;
-  max-width: 600px;   /* Maakt het plaatje 900px breed */
+  max-width: 600px;   /* maakt het plaatje 600px breed */
   width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
   height: auto;
   border-radius: 8px; }
+
+  .blok-afbeelding5 {
+  width: 22%;              /* Zorgt dat elke foto ongeveer 1/4 van de rij neemt */
+  height: auto;            /* Houdt de verhoudingen van de foto’s goed */
+  border-radius: 5px;      /* maakt de hoeken iets rond */
+}
 
 .Invoer-sectie {
   display: flex;
@@ -135,20 +141,12 @@ p.capitalize {
   color: #333;
 }
 
-.tekst {
-  flex: 1; /* zorgt dat de tekst de resterende ruimte krijgt */
-}
+
 
 .foto-rij {
   display: flex;           /* Zorgt dat de plaatjes naast elkaar komen */
   gap: 10px;               /* Ruimte tussen de foto’s */
   justify-content: center; /* Zorgt dat ze netjes in het midden staan */
-}
-
-.blok-afbeelding5 {
-  width: 22%;              /* Zorgt dat elke foto ongeveer 1/4 van de rij neemt */
-  height: auto;            /* Houdt de verhoudingen van de foto’s goed */
-  border-radius: 5px;      /* (optioneel) maakt de hoeken iets rond */
 }
 
 .site-footer {
