@@ -96,6 +96,14 @@ p.capitalize {
   height: auto;
   border-radius: 8px; }
 
+  .blok-afbeelding4 {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;   /* Maakt het plaatje 900px breed */
+  width: 100%;        /* zorgt ervoor dat het ook goed te zien is op de telefoon */
+  height: auto;
+  border-radius: 8px; }
+
 .Invoer-sectie {
   display: flex;
   flex-wrap: wrap; 
