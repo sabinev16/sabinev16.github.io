@@ -139,6 +139,18 @@ p.capitalize {
   flex: 1; /* zorgt dat de tekst de resterende ruimte krijgt */
 }
 
+.foto-rij {
+  display: flex;           /* Zorgt dat de plaatjes naast elkaar komen */
+  gap: 10px;               /* Ruimte tussen de foto’s */
+  justify-content: center; /* Zorgt dat ze netjes in het midden staan */
+}
+
+.blok-afbeelding5 {
+  width: 22%;              /* Zorgt dat elke foto ongeveer 1/4 van de rij neemt */
+  height: auto;            /* Houdt de verhoudingen van de foto’s goed */
+  border-radius: 5px;      /* (optioneel) maakt de hoeken iets rond */
+}
+
 .site-footer {
   background-color: #333333;     /* donker grijze achtergrond */
   color: white;                  /* witte tekst */
