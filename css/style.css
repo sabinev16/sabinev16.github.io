@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 233, 237);
+    background-color: rgb(255, 233, 237); /*  achtergrond kleur*/
 
 ul {
   list-style-type: none;
@@ -44,7 +44,7 @@ p.capitalize {
   text-transform: capitalize;
 
 }
-
+Index
 .inleiding-blok {
   background-color: #ffffff; /* witte achtergrond */
   padding: 20px;
@@ -71,6 +71,7 @@ p.capitalize {
   line-height: 1.6;
 }
 
+Plaatje parijs
 .blok-afbeelding1 {
   display: block;
   margin: 0 auto;
@@ -79,14 +80,14 @@ p.capitalize {
   height: auto;
   border-radius: 8px;
 }
-
+Plaatje gift invoer verwerking uitvoer
 .blok-afbeelding2 {
   max-width: 500px; /* stel de maximale breedte van het plaatje in */
   width: 100%;      /* zorgt dat het ook op kleinere schermen goed schaalt */
   height: auto;
   border-radius: 8px;
 }
-
+Invoer verwerking Uivoer
 .Invoer-sectie {
   display: flex;
   flex-wrap: wrap; 
@@ -121,7 +122,36 @@ p.capitalize {
 .tekst {
   flex: 1; /* zorgt dat de tekst de resterende ruimte krijgt */
 }
+Compressie
+.tekst-met-plaatje {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+}
 
+.tekst-met-plaatje .tekstblok {
+  flex: 1;
+  min-width: 250px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tekst-met-plaatje img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+Site footer
 .site-footer {
   background-color: #333333;     /* donker grijze achtergrond */
   color: white;                  /* witte tekst */
