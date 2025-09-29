@@ -109,53 +109,53 @@ p.lowercase {
   border-radius: 5px;      /* afgeronde hoeken*/
 }
 
+
 .Invoer-sectie {
-  display: flex;
-  flex-wrap: wrap; 
-  align-items: center;
-  gap: 20px;
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  display: flex;               /* flexibele layout */
+  flex-wrap: wrap;             /* laat de teskt op een nieuwe */
+  align-items: center;         /* laat de plaatjes in het midden */
+  gap: 20px;                   /* ruimte tussen de plaatjes */
+  max-width: 900px;            /* maximale groote */
+  margin: 20px auto;           /* de verticale ruimte */
+  padding: 20px;               /* ruimte rond de tekst en plaatjes */
+  background-color: #ffffff;   /* achtergrondkleur */
+  border-radius: 10px;         /* afgeronde hoeken */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* schaduw */
 }
+
 .invoertekst {
-  flex: 1;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #000000;
+  flex: 1;                     /* neemt alle ruimte in het blok  */
+  font-size: 16px;             /* tekstgrootte */
+  line-height: 1.6;            /* regelafstand */
+  color: #000000;              /* tekstkleur */
 }
 
 .invoertekst h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
+  font-size: 36px;             /* koptekst */
+  margin-bottom: 10px;         /* ruimte onder de koptekst */
 }
+
 .ondertekst {
-  flex-basis: 100%;
-  margin-top: 20px;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
+  flex-basis: 100%;            /* neemt alle ruimte in het blok */
+  margin-top: 20px;            /* ruimte boven de tekst */
+  font-size: 16px;             /* tekstgrootte */
+  line-height: 1.6;            /* regelafstand */
+  color: #000000;                 /* kleur */
 }
-
-
 
 .foto-rij {
-  display: flex;           /* Zorgt dat de plaatjes naast elkaar komen */
-  gap: 10px;               /* Ruimte tussen de foto’s */
-  justify-content: center; /* Zorgt dat ze netjes in het midden staan */
+  display: flex;           /* zorgt dat de plaatjes naast elkaar komen */
+  gap: 10px;               /* ruimte tussen de foto’s */
+  justify-content: center; /* zorgt dat de plaatjes netjes in het midden staan */
 }
 
 .site-footer {
-  background-color: #333333;     /* donker grijze achtergrond */
+  background-color: #333333;     /* achtergrond */
   color: white;                  /* witte tekst */
   text-align: center;            /* in het midden */
-  padding: 5px 10px;
-  font-size: 14px;
-  margin-top: 40px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  padding: 5px 10px;           /* ruimte in het blok aan de boven/onderkant en de zijkanten */
+  font-size: 14px;             /* tekstgrootte */
+  margin-top: 40px;            /* ruimte tussen de footer en de tekst */
+  position: relative;          /* relatieveren aan dezelfde plek als de rest van de tekst en plaatjes */
+  width: 100%;                 /* neemt de volledige breedte */
 }
